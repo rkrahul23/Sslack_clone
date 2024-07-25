@@ -1,0 +1,913 @@
+header{
+    display: flex;
+   justify-content: space-around;
+  font-weight: bolder;
+
+ }
+ html{
+  overflow-x: hidden;
+ }
+  .logoimg{
+     width: 50px;
+     height: 25px;
+  }    
+  body{
+    padding-top: 15px;
+    padding-right: 10px;
+    overflow-x: hidden;
+  } 
+      
+       
+       a:link{
+        text-decoration: none;
+       color: black;
+       }
+       
+       .logopart{
+       font-size: xx-large;
+     
+       }
+       .leftpart{
+         display: flex;
+         flex-wrap: wrap;
+       
+       }
+ 
+       .solutions,.enterprise,.resources,.pricing{
+         padding-left: 15px;
+         color: black;
+         
+               }
+               .features,.signin{
+                 color: black;
+               }
+.enterprise:hover, .pricing:hover{
+  text-decoration: underline;
+}
+
+       .rightpart{
+       display: inline-flex;
+        
+       }
+       .rightpart i{
+        position: relative;
+        top: 12px;
+        right: 10px;
+       }
+       #search-icon {
+        cursor: pointer;
+      }
+      
+      #search-bar {
+        width: 200px;
+        padding: 10px;
+      }
+       
+       .talktosales{
+         
+         width: 145px;
+         height: 40px;
+         color: rgb(107, 14, 108);
+         border-color: rgb(107, 14, 108);
+         border-radius: 5px;
+       margin-left: 30px;
+       }
+       .tryforfree{
+         width: 145px;
+         height: 45px;
+         background-color: rgb(107, 14, 108);
+         color: white;
+         border-radius: 5px;
+       }
+.slackintro img{
+  position: relative;
+  right: 120px;
+}
+       
+    .slackintro{
+      display: flex;
+      font: bolder;
+      margin-top: 40px;
+    }
+  
+    .introduction{
+      margin-left: 130px;
+margin-top: 35px;
+    }
+    .aboutslack{
+      font-size: 34px;
+      margin-left: 130px;
+      margin-right: 340px;
+      margin-top: 20px;
+      font-weight: 700px;
+      
+    }
+    .definition{
+      margin-left: 130px;
+      margin-right: 400px;
+      font-size: 20px;
+font-weight:530;
+
+    }
+    .contacting{
+      margin-left: 130px;
+margin-top: 50px;
+    }
+    .trynow{
+      width: 130px;
+      height: 55px;
+      background-color: rgb(107, 14, 108);
+         color: white;
+         border-radius: 5px;
+    }
+    .contactsales{
+      width: 190px;
+      height: 55px;
+      border-radius: 5px;
+      color: rgb(107, 14, 108);
+         border-color: rgb(107, 14, 108);
+    }
+    .slackconnect{
+     background-color: rgb(249, 243, 231);
+     font-weight: bolder;
+     padding-top: 40px;
+     margin-top: 90px;
+     padding-bottom: 100px;
+    }
+    .connectingslack,.slackhelp,.ex{
+      margin-left: 180px;
+    }
+    .entire{
+      display: flex;
+      justify-content: space-around;
+      margin-left: 40px;
+      margin-bottom: 60px;
+    }
+.connectingslack{
+  font-size: 50px;
+  font-weight: 700;
+  padding-left: 210px;
+}
+.slackhelp{
+  padding-left: 180px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.entire h1{
+display: flex;
+justify-content: space-evenly;
+font-size: 72px;
+font-weight: 700px;
+ 
+}
+.first{
+padding-left: 70px;
+}
+
+.third h1{
+padding-right: 300px;
+  
+}
+
+  
+.one{
+position: relative;
+bottom: 50px;
+padding-left: 80px;
+
+}
+.first{
+  width: 250px;
+}
+.second p{
+  position: relative;
+  bottom: 50px;
+
+  width: 150px;
+  }
+  .third p{
+    position: relative;
+    bottom: 50px;
+    
+   width: 180px;
+    }
+    .ex{
+    
+      padding-left: 180px;
+     
+      color:rgb(142, 140, 140);
+    }
+    .organ{
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 20px;
+    }
+  
+.listtwo{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: larger;
+  font-weight: 500;
+ position: relative;
+ right: 35px;
+}
+.listtwo i{
+
+color: rgb(69, 7, 69);
+}
+
+.comp{
+  font: bolder;
+  font-size: 60px;
+  font-weight: 800;
+  width: 600px;
+  
+}
+.ek{
+  width: 550px;
+ margin-bottom: 20px;
+ position: relative;
+
+      left: 30px;
+      bottom: 20px;
+}
+.do{
+  width: 450px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 30px;
+  bottom: 20px;
+}
+.theen{
+  width: 520px;
+  margin-bottom: 10px;
+  position: relative;
+    
+  left: 30px;
+  bottom: 20px;
+}
+
+.prise{
+  color: blue;
+font-size: large;
+
+}
+.prise:hover {
+  text-decoration: underline;
+}
+.signin:hover{
+  text-decoration: underline;
+}
+.automa{
+  display: flex;
+  margin-top: 90px;
+ margin-left: 120px;
+}
+
+.listthree{
+  display: flex;
+  flex-direction: column;
+}
+.listthree div{
+  display: flex;
+  width: 530px;
+}
+.listthree i{
+  color: rgb(69, 7, 69);
+
+  position: relative;
+  top: 20px;
+}
+
+
+.star{
+  padding-top: 50px;
+  
+}
+.star h1{
+  font-size: 50px;
+  text-align: center;
+}
+.star p{
+  font-size: 19px;
+  text-align: center;
+
+}
+.ico {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 55px;
+  padding-top: 60px;
+}
+.ico i{
+  padding-bottom: 20px;
+}
+.has h3 {
+font: larger;
+}
+.has i {
+border: darkred;
+  }
+.has p{
+  width: 250px;
+  text-align: left;
+  font: larger;
+}
+.plane i,h3 {
+  font: larger;
+ 
+   
+  }
+  .plane p{
+    width: 275px;
+   text-align: left;
+    font: larger;
+  }
+  .hand i,h3 {
+    font: larger;
+   
+     
+    }
+    .hand p{
+      width: 265px;
+      text-align: left;
+      font: larger;
+    }
+    .admin i,h3 {
+      font: larger;
+     
+       
+      }
+      .admin p{
+        width: 265px;
+        text-align: left;
+        font: larger;
+      }
+
+
+      .built{
+        background-color: rgb(249, 243, 231);
+        display: flex;
+        justify-content: center;
+        padding-left: 90px;
+        padding-bottom: 60px;
+        padding-top: 90px;
+      }
+      .built img{
+        width: 400px;
+        height: 400px;
+      }
+      .hov1{
+        display: flex;
+        justify-content: space-between;
+     flex-wrap: wrap;
+     width: 930px;
+      }
+.hov h1{
+  font-size: 48px;
+  font: bolder;
+}
+.hov p{
+  font-size: 20px;
+  width: 600px;
+}
+
+      .pet {
+        box-sizing: border-box;
+       background-color: rgb(255, 255, 255);
+       width: 300px;
+       height: 220px;
+       padding-left: 10px;
+       padding-top: 10px;
+      }
+      .pet:hover {
+        transform: scale(1.1);
+        color: rgb(11, 179, 235);
+      }
+     .pet a:hover{
+      color: rgb(11, 179, 235);
+     }
+    
+     .pet1 {
+      box-sizing: border-box;
+     background-color: rgb(255, 255, 255);
+     width: 300px;
+     height: 220px;
+     padding-left: 10px;
+     padding-top: 10px;
+    }
+    .pet1:hover {
+      transform: scale(1.1);
+      color: rgb(11, 179, 235);
+    }
+   .pet1 a:hover{
+    color: rgb(11, 179, 235);
+   }
+.pet1 p{
+  width: 280px;
+}
+   .pet2 {
+    box-sizing: border-box;
+   background-color: rgb(255, 255, 255);
+   width: 300px;
+   height: 220px;
+   padding-left: 10px;
+   padding-top: 10px;
+  }
+  .pet2:hover {
+    transform: scale(1.1);
+    color: rgb(11, 179, 235);
+  }
+ .pet2 a:hover{
+  color: rgb(11, 179, 235);
+ }
+
+ .pet3 {
+  box-sizing: border-box;
+ background-color: rgb(255, 255, 255);
+ width: 300px;
+ height: 220px;
+ padding-left: 10px;
+ padding-top: 10px;
+ margin-top: 20px;
+}
+.pet3:hover {
+  transform: scale(1.1);
+  color: rgb(11, 179, 235);
+}
+.pet3 a:hover{
+color: rgb(11, 179, 235);
+}
+
+.pet4 {
+  box-sizing: border-box;
+ background-color: rgb(255, 255, 255);
+ width: 300px;
+ height: 220px;
+ padding-left: 10px;
+ padding-top: 10px;
+ margin-top: 20px;
+}
+.pet4:hover {
+  transform: scale(1.1);
+  color: rgb(11, 179, 235);
+}
+.pet4 a:hover{
+color: rgb(11, 179, 235);
+}
+.pet4 p{
+  width: 280px;
+}
+.pet5 {
+  box-sizing: border-box;
+ background-color: rgb(255, 255, 255);
+ width: 300px;
+ height: 220px;
+ padding-left: 10px;
+ padding-top: 10px;
+ margin-top: 20px;
+}
+.pet5:hover {
+  transform: scale(1.1);
+  color: rgb(11, 179, 235);
+}
+.pet5 a:hover{
+color: rgb(11, 179, 235);
+}
+.pet5  p{
+  width: 280px;
+}
+.im{
+  
+  position: relative;
+  right: 50px;
+bottom: 80px;
+}
+
+.joining h1{
+  font-size: 48px;
+  width: 650px;
+  
+}
+.sto{
+  display: flex;
+ flex-direction: column;
+ align-items:center;
+}
+.stories{
+  font-size: 20px;
+  
+}
+.stories:hover{
+  text-decoration: underline;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  body {
+  
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  body {
+    
+  }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  body {
+    
+  }
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  body {
+   
+  }
+}  */
+
+.dropbtn {
+ border: 0;
+ margin: 0%;
+ margin-left: 20px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+background-color: whitesmoke;
+ z-index: 1;
+  width: 800px;
+  height: 550px;
+  margin-top: 50px;
+  margin-left: 100px;
+  overflow: auto;
+}
+
+/* Show the dropdown content */
+.show {
+  display: block;
+}
+
+.he{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+.colab, .auto, .intel{
+  display: flex;
+  flex-direction: column;
+width: 200px;
+
+}
+.colab p, .auto p, .intel p{
+  font-weight: lighter;
+}
+.colab b:hover, .auto b:hover, .intel b:hover{
+  text-decoration: underline;
+}
+.colab a, .auto a,  .intel a{
+ color: black;
+}
+.colab a:hover, .auto a:hover, .intel a:hover{
+  color: rgb(7, 151, 240);
+ 
+}
+strong{
+  font-weight: bolder;
+}
+
+
+/* Add your styling here */
+
+
+
+.slider-ctr {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px; /* Adjust as needed */
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: white;
+}
+.slider-ctr:hover, .slide:hover{
+  transform: scale(1.03);
+}
+
+.slide {
+  display: none;
+ width: 80%;
+ margin-left: 3%;
+}
+
+.slide img {
+  width: 50%;
+  height: auto;
+}
+.slide1, .slide2, .slide3{
+  display: flex;
+}
+
+.control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+.ran img{
+  width: 40px;
+padding-left: 30px;
+}
+ .ran p{
+  width: 450px;
+  font-size: large;
+  padding-top: 20px;
+  padding-left: 30px;
+ }
+ .ran{
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+ }
+ .ran strong{
+  padding-left: 30px;
+ }
+ .ran a{
+  position: relative;
+left: 80%;
+top: 20%;
+ }
+
+ .slides{
+  display: flex;
+ }
+.slide3 .ran img{
+  width: 100px;
+}
+
+.par{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+ .onn img{
+  width: 105px;
+ }
+ .aar img{
+  max-width: 100px;
+ }
+ .ezhu img{
+ max-width:  100px;
+ }
+ 
+ .blog {
+  display: flex;
+  justify-content: space-between; /* Distributes boxes evenly */
+  width: 960px;
+  margin: 0 auto;
+  height: 450px; /* Adjust the height as needed */
+}
+.blogbox {
+  background-color: rgb(246, 242, 235); /* Change colors as desired */
+  width: 280px;
+  height: 400px;
+padding-left: 15px;
+padding-top: 15px;
+}
+
+.blogbox a{
+  color: black;
+}
+.blogbox:hover{
+  transform: scale(1.03);
+}
+.blogbox i{
+  position: relative;
+  left: 150px;
+  color: rgb(23, 86, 244);
+}
+.blogbox p{
+ position: relative;
+ top: 60px;
+ color: rgb(23, 86, 244);
+}
+.blogbox .p1 {
+  position: relative;
+  top: 40px;
+  color: rgb(23, 86, 244);
+}
+.hea{
+  font-size: 50px;
+  text-align: center;
+}
+
+/* faq */
+
+
+.answer{
+  display: none;
+  width:70%;
+}
+
+.faq {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 70px;
+  margin-left: 15%;
+  font-weight: bolder;
+  font-size: larger;
+  border: 2px dotted wheat;
+}
+.question{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.answer {
+  display: none;
+  width: 1200px;
+
+  font-weight: bolder;
+  margin-top: 30px;
+  border: 2px dotted wheat;
+}
+
+
+.int{
+  width: 100%;
+  height: 350px;
+  background-color: rgb(81, 3, 85);
+  border-radius: 0% 0% 120% 120%/0% 0% 80% 80%;
+  text-align: center;
+  margin-top: 200px;
+}
+.int h1{
+  font-size: 50px;
+  color: #fff;
+  padding-top: 100px;
+}
+.int button{
+  width: 220px;
+  height: 60px;
+  border-radius: 5px;
+  color: rgb(81, 3, 85);
+  font-weight: bolder;
+}
+.int button:active{
+  background-color: rgb(81, 3, 85);
+}
+
+/* region */
+.reg{
+  display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+padding: 25px ;
+padding-bottom: 5px;
+}
+
+.cont{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px ;
+
+}
+.lang{
+  display:flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.lang1, .lang2, .lang3{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.box {
+  display: none;
+  width: 600px;
+  height: 100px;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  margin: 10px;
+  position:absolute; 
+  top: 50%; 
+  transform: translate(-20%, -5%); 
+  height: 45%;
+ background: whitesmoke; 
+
+}
+.social{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 120px;
+margin-right: 150px;
+margin-top: 50px;
+}
+.sm i{
+  padding-left: 30px ;
+}
+.sm a{
+  text-decoration: none;
+  color: black;
+}
+.sm i:hover{
+  color: aqua;
+  
+}
+
+.lasts img{
+  width: 80px;
+}
+.lasts{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  font-size: large;
+}
+
+.fi{
+  display: flex;
+  flex-direction: column;
+}
+.lasts a{
+  font-weight: lighter;
+  color: black;
+  position: relative;
+  top: 15px;
+}
+.lasts a:hover{
+color: skyblue;
+}
+
+
+.solut{
+  display: flex;
+  width: 50%;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+    top: 60px; /* Adjust as needed */
+   left: 200px;
+}
+.dept{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 60%;
+ 
+}
+.dropdown-bo{
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+   z-index: 1;
+    width: 800px;
+    height: 550px;
+    
+   
+    overflow:auto;
+}
+.dept2{
+  background-color: rgb(226, 226, 211);
+  display: flex;
+  flex-direction: column;
+}
+.dept2 img{
+width: 250px
+}
